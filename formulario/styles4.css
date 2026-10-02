@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(253, 198, 237);
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #f37198;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+}
+
+#Menu {
+    background-color: #f86395;
+    padding: 10px;
+    position: relative;
+}
+
+#Menu h2 {
+    font-size: 20px;
+    color: white;
+    margin: 0 0 5px 0;
+}
+
+#Menu a {
+    font-size: 15px;
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#caja1, #caja2, #caja3 {
+    display: inline-block;
+    background-color: white;
+    width: 30%;
+    margin: 5px 1%;
+    padding: 12px;
+    border-radius: 8px;
+    vertical-align: top;
+    height: auto; 
+    box-sizing: border-box;
+}
+
+#caja1 h3, #caja2 h3, #caja3 h3 {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+#caja1 p, #caja2 p, #caja3 p {
+    font-size: 11.5px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+#caja1 img, #caja2 img, #caja3 img {
+    width: 200px; 
+    height: 100px;
+    margin: 5px 0;
+    
+}
+
+#caja9 {
+    background-color: #fdf5e6;
+    width: 22%;
+    height: 230px; 
+    display: inline-block;
+    margin: 5px 1%;
+    padding: 10px;
+    vertical-align: top;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#caja9 h3 {
+    font-size:15px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#caja9 p {
+    font-size: 12px;
+    line-height: 1.15;
+    margin: 0;
+}
+
+#Foto {
+   width: 500px; 
+    height: auto;
+    display: block;
+    margin: 15px auto; 
+}
+
+form {
+    font-size: 13px;
+}
+
+fieldset {
+    padding: 8px;
+    margin: 5px auto;
+    width: 80%;
+    border-radius: 8px;
+    border:none;
+}
+
+label {
+    font-size: 12px;
+}
+
+input {
+    font-size: 12px;
+    padding: 4px;
+}
+
+button {
+    font-size: 12px;
+    padding: 4px 10px;
+    margin: 2px;
+}
+
+#comentarios {
+    width: 30%;
+    height: 100px;
+    font-size: 12px;
+}
+
+footer {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f37198;
+    color: white;
+}
+
+.footer-img {
+    width: 180px; 
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+#video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
